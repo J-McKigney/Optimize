@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron')
+
+const { app, BrowserWindow, TouchBarColorPicker } = require('electron')
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -6,7 +7,8 @@ function createWindow () {
     height: 600,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    frame: false
   })
 
   win.loadFile('mainWindow.html')

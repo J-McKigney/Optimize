@@ -9,6 +9,7 @@
   "author": "Jack McKigney",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
     "electron": "^12.0.1"
   }
 }
