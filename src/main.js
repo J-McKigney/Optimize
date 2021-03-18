@@ -1,5 +1,5 @@
 
-const { app, BrowserWindow, TouchBarColorPicker } = require('electron')
+const { app, BrowserWindow} = require('electron')
 
 function createWindow () {
   const win = new BrowserWindow({
